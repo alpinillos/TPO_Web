@@ -62,9 +62,9 @@
 	</div>
 	<div id="contene" style="width: 960px; margin: auto;">
 		<div id="contenedor-template">
-			<div id="titulo-template">Registrar nuevo jugador</div>
+			<div id="titulo-template">Armar grupo con jugadores existentes</div>
 			<div id="Tabs">
-				<button id="btnJugadorExistente" class="cssbox5">Registración</button>
+				<button id="btnJugadorExistente" class="cssbox5">nuevo grupo</button>
 
 			</div>
 			<div id="Tabs"></div>
@@ -76,19 +76,19 @@
 						<div id="tit-plan-internet">
 							<div></div>
 						</div>
-						<div id="mail">
+						<div id="NombreGrupo">
 
-							<span id="lblMail">Mail</span> <br /> <input
-								type="text" id="txtMail" name="txtMail">
+							<span id="lblgrupo">Nombre del grupo</span> <br /> <input
+								type="text" id="txtNombreGrupo" name="txtNombreGrupo">
 
 						</div>
-						<div id="apodo">
-							<span id="lblapodo">Apodo</span> <br /> <input
-								type="text" id="txtApodo" name="txtApodo">
+						<div id="Jugadores">
+							<span id="lblJugadores">Seleccione Jugadores</span> <br /> <input
+								type="text" id="txtJugadores" name="txtJugadores">
 
 						</div>
 						<div id="btn-continuar">
-							<button class="cssbox2" id="btnConnectar">Continuar</button>
+							<button class="cssbox2" id="btnConnectar">Crear Grupo</button>
 
 						</div>
 
