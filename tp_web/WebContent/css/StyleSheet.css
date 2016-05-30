@@ -1,0 +1,392 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+	@font-face {
+    font-family: "Stag Sans Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Stag Sans Light'), url("STAGSANS-LIGHT.woff") format("woff"), url("STAGSANS-LIGHT.eot?") format("eot"), url("STAGSANS-LIGHT.otf") format("opentype"), url("STAGSANS-LIGHT.svg") format("svg"), url("STAGSANS-LIGHT.ttf") format("truetype");
+}
+@font-face {
+    font-family: "VNF Stag Sans Book";
+    font-style: normal;
+    font-weight: normal;
+    src: url("VNF-Stag Sans-Book.woff") format("woff"), url("VNF-Stag Sans-Book.eot") format("eot"), url("VNF-Stag Sans-Book.otf") format("opentype"), url("VNF-Stag Sans-Book.svg") format("svg"), url("VNF-Stag Sans-Book.ttf") format("truetype");
+}
+
+body { font-size:14px; font-family: 'VNF Stag Sans Book',Arial; background-color:#261c3f;}
+html, body {height:100%;}
+
+#spgm_container {
+	width: 100%;
+	height:100%;
+	position: absolute;
+	background: url('images/bg.gif') repeat-x;
+	background-color: #261c3f;
+	display: block;
+	overflow: hidden;
+	z-index:-999;
+	top:0;
+}
+#iso1 {
+	background: url('images/iso1.png') no-repeat;
+	width:697px;
+	height:506px;
+	position: absolute;
+	right: 0;
+	top: 121px;
+}
+#adjustedZIndex
+{
+	font-family: 'VNF Stag Sans Book';
+	font-size: 14px;
+    z-index: 1;
+    background-color: # FFF;
+}
+
+#iso2 {
+	background: url('images/iso2.png') no-repeat;
+	width:200px;
+	height:2503px;
+	position:absolute;
+	bottom: 1%;
+	right: 1%;
+}
+
+
+#appBadge {
+	position: absolute;
+	bottom: 75px;
+	right: 0;
+}
+
+li { margin-left: 15px; }
+img { border: none; }
+div.clear {
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+	line-height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}
+
+/* !GLOBAL FOOTER */
+#footer {
+width:960px; margin:20px auto; text-align:center;
+}
+#footerTlinks {
+	padding-bottom: 10px;
+}
+#footerTlinks a {
+	color: #747474;
+	text-decoration: none;
+}
+#footerTlinks a:hover {
+	text-decoration: underline;	
+}
+
+.cssbox, .cssbox_body, .cssbox_head, .cssbox_head h2
+{ 
+background: url("images/boton.png");
+border-width: 0px;
+
+width: 325px; /* IE Win = width - padding */ 
+height: 56px;
+padding-right: 15px; /* the gap on the right edge of the image (not content padding) */ 
+padding-top: 0px;
+color: #ffffff;
+font-size: 18px; 
+ cursor:pointer;
+}  
+
+a:link
+{
+	margin:0px 3px; 
+	font-size: 10px;
+	line-height: 125%;
+	color: #FFF;
+}
+
+.cssbox2
+{
+float:left;
+cursor:pointer;
+color:#FFFFFF;
+background-color: #4f2e65; 
+border: medium none;
+font-family: 'VNF Stag Sans Book', Helvetica;
+padding:10px 25px;
+font-size:15px;
+margin:15px 0px 15px 15px;
+} 
+
+.cssbox3
+{
+    background-color: #4f2e65;
+    border: 1px solid #cecece;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    padding:10px 25px;
+  	color:#A9F9A0;
+  font-family:'VNF Stag Sans Book',Helvetica;
+} 
+.cssbox4
+{
+    background-color: #4f2e65;
+    border: 1px solid #cecece;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    padding:10px 25px;
+  	color:#F5A9A9;
+  	text-transform:capitalize;
+  	margin:0px 5px;
+  font-family:'VNF Stag Sans Book',Helvetica;
+} 
+
+.cssbox5
+{
+cursor:pointer;
+color:#FFFFFF;
+background: none repeat scroll 0 0 rgba(66, 75, 74, 0.95); 
+border: medium none;
+font-family: 'VNF Stag Sans Book', Helvetica;
+padding:10px 25px;
+font-size:15px;
+} 
+
+#rblProd span {margin:0.3px 0px 0.3px 0px; display:block;}
+
+#contenedor-template{
+width:960px; heigth:565px; background-color:#FFFFFF; margin: 20px 0px;
+background-image:url("../images/paisaje-lago.jpg");
+background-size:960px 513px;
+background-repeat: no-repeat;
+background-color: #261c3f;
+/*para Firefox*/
+
+/*para Safari y Chrome*/
+
+/*para IE */
+behavior:url(border.htc);
+/* para Opera */
+
+overflow:auto;
+
+min-height: 485px;
+}
+
+#contenedor_tit_img{
+width:100%;
+margin: 1% auto 0;
+}
+
+#titulo_img{
+margin:auto;
+text-align: center;
+color:#ffffff;
+font-size:37px;
+font-family:'Stag Sans Light', Arial;
+}
+
+#titulo-template{
+font-size:30px;
+color:#fff;
+font-family:'stag sans light', Arial;
+border-bottom:2px solid #aaa;
+margin: 5px;
+}
+
+#Tabs{
+float:left;
+margin:150px 5px 0px 30px;
+display:block;
+}
+#divLogin{margin:194px 30px 0px;margin:192px 30px 0px\0;}
+#contenedor-divLogin{
+border-top: 2px solid #aaa;
+width:560px;
+overflow:hidden;
+background:none repeat scroll 0 0 rgba(66, 75, 74, 0.7);
+color:#fff;
+padding:7px 13px;
+}
+#divData{
+overflow:auto;
+clear:both;
+color:#fff;
+}
+
+#tit-plan-internet{
+font-weight:lighter;
+font-size:18px;
+margin: 16px 0px;
+color:#fff;
+}
+
+input[type='checkbox'] {margin:0 5px; position:absolute;}
+input[type='radio'] {margin:4px 5px; position:absolute;}
+
+label{margin:0px 0px 0px 25px;line-height:20px;}
+
+#terms{    
+line-height: 12px;
+margin: 7px 0;
+clear:both;
+}
+	
+#terms span{
+margin:0px 0px 0px 25px;
+line-height: 12px;
+}
+
+#login{
+float:left;
+clear:both;
+margin:0px 10px 0px 0px;
+}
+#divProd{
+color: #fff;
+display:none;
+}
+#lblApodo{
+padding:2px;
+}
+#txtApodo{
+right:0;
+height:38px;
+font-size:17px;
+width:210px;
+}
+#txtMail{
+right:0;
+height:38px;
+font-size:17px;
+width:210px;
+}
+#password{
+
+float:left;
+}
+#txtPassword{
+right:0;
+float:right;
+height:38px;
+font-size:17px;
+width:150px;
+}
+
+#lblPassowrd{
+padding:2px;}
+#divLogin{margin:194px 30px 0px;}
+#usuario{
+color:#fff;
+}
+#txtUserName{
+right:0;
+float:left;
+font-size:17px;
+height:38px;
+margin:0px 15px 0px 0px;
+}
+
+#contraseña{
+width:265px;
+clear: both;
+}
+
+#txtPassword{
+right:0;
+float:right;
+}
+
+#btnConnect{
+    background-color: #4f2e65;
+    color: #ffffff;
+    cursor: pointer;
+    padding:10px 25px;
+  	color:#FFF;
+  font-family:'VNF Stag Sans Book',Helvetica;
+  float:left;
+}
+#uprGral{
+    background-color: #000;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+#pnlWait{
+    color: #fff;
+    display: block;
+    left: 50%;
+    margin-left: -107px;
+	margin-top:-55px;
+    overflow: visible;
+    position: fixed;
+    text-align: center;
+    text-transform: capitalize;
+    top: 50%;
+    vertical-align: middle;
+    width: 217px;
+    z-index: 999999;
+}
+#vsLogin{
+font-size:13px;
+width: 400px;
+margin:20px 0;
+}
+
+#lenguage{
+width:100%;
+height: 20px;
+text-transform:capitalize;
+}
+
+a{
+font-size:9px;
+color:#ffffff;
+}
+
+#mnuLang{
+float:right;
+}
+
+#contenedor-imagen{
+	float:right;
+    width: auto;
+	z-index:-1;
+}
+
+#contenedor-imagen img{ height:485px;}
+
+.idioma{ 
+    float: right;
+    margin: 3px 5px 0 0;
+	}
+.campoinput{
+      background-color:#ffffff;
+      text-align:center;
+      font-size:16px;
+      font-family:arial;
+      font-weight:bold;
+      color:#000000;
+      border: 0px;
+}
+#btns-acpt-cncl{
+    clear: both;
+    margin: 50px 0 0;
+}
