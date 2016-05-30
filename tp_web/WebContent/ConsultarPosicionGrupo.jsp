@@ -60,13 +60,7 @@
 	</div>
 	<div id="contene" style="width: 960px; margin: auto;">
 		<div id="contenedor-template">
-			<div id="titulo-template">Armar grupo con jugadores existentes</div>
-			<div id="Tabs">
-				<button id="btnJugadorExistente" class="cssbox5">nuevo
-					grupo</button>
-
-			</div>
-			<div id="Tabs"></div>
+			<div id="titulo-template">Consultar Posicion en el grupo</div>
 			<div id="divLogin">
 				<div id="contenedor-divLogin">
 
@@ -75,33 +69,22 @@
 						<div id="tit-plan-internet">
 							<div></div>
 						</div>
-						<div id="NombreGrupo">
-
-							<span id="lblgrupo">Nombre del grupo</span> <br /> <input
-								type="text" id="txtNombreGrupo" name="txtNombreGrupo">
-
-						</div>
-						<br />
 						<div id="Jugadores">
-							<span id="lblJugadores">Seleccione Jugadores</span> <br /> 
-							<input type="checkbox" name="jugador" value="Jugador1"> Jugador1<br> 
-							<input type="checkbox" name="jugador" value="jugador2" checked> Jugador2<br> 
+							<span id="lblJugadores">Jugador actual: jugador1</span> <br /> 
+						</div>
+						<div id="Jugadores">
+							<span id="lblJugadores">Seleccione grupo</span> <br /> 
+						    <input type="radio" name="grupo" value="grupo1" checked> grupo1<br>
+  							<input type="radio" name="grupo" value="grupo2"> grupo2<br>
+ 							<input type="radio" name="grupo" value="grupo3"> grupo3
 						</div>
 						<div id="btn-continuar">
-							<button class="cssbox2" id="btnCrearGrupo">Crear Grupo</button>
+							<button class="cssbox2" id="btnContinuar">Obtener Clasificación</button>
 
 						</div>
 
 						<div id="validacion"></div>
-						<div id="terms">
-
-							<input type="checkbox" id="chkAgreement" checked> <span>I
-								Agree to the </span> <a style="color: #FFF;" href="../terms_es.html"
-								onclick="window.open(this.href, this.target, 'width=1100,height=900', resizable=0); return false;">
-
-								<b>Terminos y condiciones.</b>
-							</a>
-						</div>
+					
 					</div>
 				</div>
 			</div>
