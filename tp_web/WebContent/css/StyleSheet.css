@@ -185,6 +185,24 @@ overflow:auto;
 
 min-height: 485px;
 }
+#cont-template-juego{
+width:1024px; background-color:#FFFFFF; margin: 20px 0px;
+background-image:url("../images/mesa_poker.jpg");
+background-size:1024px;
+background-repeat: no-repeat;
+background-color: #261c3f;
+/*para Firefox*/
+
+/*para Safari y Chrome*/
+
+/*para IE */
+behavior:url(border.htc);
+/* para Opera */
+
+overflow:auto;
+
+min-height: 485px;
+}
 
 #contenedor_tit_img{
 width:100%;
